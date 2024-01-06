@@ -127,7 +127,8 @@
         font-weight: 300;
      }
      .section-three{
-        background-image: url(/images/watch.png);
+        /* background-image: url(/images/watch.png); */
+        background-image: url('../images/watch.png');
         background-repeat: no-repeat;
         width: 1140px;
         height: 300px;
