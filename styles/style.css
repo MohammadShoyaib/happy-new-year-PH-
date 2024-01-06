@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 .bg-img1{
     background-image: url('../images/banner/banner2.png');
@@ -24,7 +25,7 @@
     text-align: right;
     font-family: 'Work Sans', sans-serif;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 500;
     margin-right: 15px;
     margin-right: 230px;
     
@@ -96,7 +97,8 @@
     }
     .my-plans{
         display: flex;
-        justify-content: space-evenly;
+         justify-content: space-evenly;
+         align-items: center;
         gap: 50px;
     }
     .plans-title{
@@ -111,6 +113,10 @@
      .plans-exc{
         margin-top: 49px;
         align-items: center;
+     }
+     .plans-exc img{
+        align-items: center;
+        
      }
      .f-h4{
         color: #151414;
@@ -128,12 +134,117 @@
         font-weight: 300;
      }
      .section-three{
-        /* background-image: url(/images/watch.png); */
-        background-image: url('../images/watch.png');
+        
+        border-radius: 8px;
+        background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
         background-repeat: no-repeat;
+        opacity: 1;
+        margin: 0 auto;
+        margin-top: 130px;
         width: 1140px;
         height: 300px;
         flex-shrink: 0;
         border-radius: 8px;
-        justify-content: center;
-     }
+    }
+    .last-of-three{
+        padding-top: 2px;
+    }
+    .three-l{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-weight: 700;
+        width: 459px;
+        margin-top: 100px;
+        margin-left: 64px;
+    }
+    #button-c{
+        width: 160px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+        color: #F15B22;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        margin-left: 64px;
+        margin-top: 24px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+        width: auto;
+        height: 577px;
+        flex-shrink: 0;
+        background: #151414;
+        margin-top: 130px;
+    }
+    .footer-main{
+        padding-top: 130px;
+        padding-left: 230px;
+
+    }
+    .footer-feature{
+        color: #F8F8F8;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .footer-paragraph{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+        max-width: 485px;
+        padding-top: 16px;
+    }
+    .email-phone-footer{
+        color: #FFF;  
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 24px;
+    }
+    
+    .footer-logo{
+        width: 175px;
+        height: 46px;
+        margin: 5px;
+        padding-top: 30px;
+        flex-shrink: 0;
+        justify-content: space-between;
+    }
+    .footer-last{
+        padding-top: 130px;
+    }
+    .footer-sub{
+        color: #FFF;
+        font-size: 25px;
+        font-weight: 600;
+        padding-top: 31px;
+        padding-bottom: 16px;
+        
+    }
+    .footer-input{
+        width: 325px;
+        height: 44px;
+        background: #151414;
+        margin-top: 31px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        font-size: 18px;
+        
+    }
+    .footer-subsbtn{
+        width: 170.106px;
+        margin-top: 16px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        color: #F15B22;
+        font-size: 20px;
+        font-family: Inter;
+    }
