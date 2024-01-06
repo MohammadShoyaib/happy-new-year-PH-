@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-img1{
+    background: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.bg-img1 #image-one{
+    display: flex;
+   
+    flex-shrink: 0;
+}
+.bg1-text{
+    width: 425px;
+    color: #151414;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-right: 230px;
+    
+}
+.bg1-desc{
+    width: 400px;
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px; /* 162.5% */
+    }
+.bg1-text-button{
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    margin-top: 32px;
+    margin-right: 20px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 139px;
+    }
+    .person-main{
+        margin-left: 100px;
+    }
+    .main-faliure{
+        margin-top: 369px;
+    }
+    .faliure-tag{
+        width: 288px;
+        color:#151414;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .faliure-desc{
+        width: 410px;
+        color: #444343;
+        font-family: Work Sans;
+        /* font-size: 16px; */
+        font-style: normal;
+        font-weight: 300;
+        margin-right: 180px;
+        margin-top: 24px;
+        /* line-height: 26px; 162.5% */
+    }
+    .faliure-point-desc{
+        color:#444343;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        margin-top: 16px;
+        margin-right: 67px;
+    }
+    .my-plans{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+    .plans-title{
+        color: #151414;
+        font-family: Work Sans;
+        font-size: 40px;
+        margin-top: 70px;
+        font-weight: 700;
+        text-align: center;
+        
+     }
+     .plans-exc{
+        margin-top: 49px;
+     }
+     .f-h4{
+        color: #151414;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 30px;;
+        font-weight: 700;
+        margin-top: 24px;
+     }
+     .fail-p{
+        color: var(--Dark-03, #737272);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 25px;
+        font-weight: 300;
+     }
+     .section-three{
+        background-image: url(/images/watch.png);
+        background-repeat: no-repeat;
+        width: 1140px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        justify-content: center;
+     }
