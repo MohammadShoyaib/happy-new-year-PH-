@@ -3,7 +3,8 @@
     padding: 0;
 }
 .bg-img1{
-    background: url(../images/banner/banner2.png);
+    background-image: url('../images/banner/banner2.png');
+    /* background: url(images/banner/banner2.png); */
     background-repeat: no-repeat;
     width: auto;
     height: 700px;
